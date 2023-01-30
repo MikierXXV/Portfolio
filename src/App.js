@@ -1,25 +1,29 @@
-import logo from './logo.svg';
+
 //import './App.css';
-import React from 'react';
+import React, { Component } from 'react';
 import Navbar from './components/Navbar';
 import About from './components/About';
 import Resume from './components/Resume';
 import Contact from './components/Contact';
 import Skills from './components/Skills';
 import Tecnologies from './components/Tecnologies';
+import Home from './components/Home';
 
 
-function App() {
-  return (
-    <div className="App">
+class App extends Component {
+  render() {
+    return (
+      <div className="App">
         <Navbar />
+        <Home />
         <About />
         <Resume />
         <Skills />
         <Tecnologies />
         <Contact />
-    </div>
-  );
+      </div>
+    );
+  }
 }
 
 export default App;
