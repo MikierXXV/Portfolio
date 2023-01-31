@@ -1,6 +1,6 @@
 import React, {Component} from "react";
 
-class Tecnologies extends Component {
+export default class Tecnologies extends Component {
     render() {
         
     }
