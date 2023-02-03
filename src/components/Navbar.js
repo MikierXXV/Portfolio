@@ -1,7 +1,9 @@
 import React, {Component} from "react";
+import resumeData from "../resumeData";
 
 export default class Navbar extends Component {
     render() {
+        //let resumeData = this.props.resumeData;
         return (
             <React.Fragment>
                 <header id="home">
@@ -20,10 +22,19 @@ export default class Navbar extends Component {
                     </nav>
                     <div className="row banner">
                         <div className="banner-text">
-                            <h1 className="responsive-headline">I'm Miguel.</h1>
-                            <h3 style={{color:"#fff", fontFamily:"sans-serif"}}>I'am handsome</h3>
+                            <h1 className="responsive-headline">I'm {resumeData.name}</h1>
+                            <hr/>
+                            <h2 style={{color:"#fff", fontFamily:"sans-serif"}}>{resumeData.role}</h2>
+                            <h3 style={{color:"#fff", fontFamily:"sans-serif"}}>{resumeData.roleDescription}</h3>
                             <hr/>
                             <ul className="social">
+                                {resumeData.socialLinks && resumeData.socialLinks.map(item => {
+                                    return(
+                                        <li key={item.name}>
+                                            <a href={item.url}><i className={item.className}></i></a>
+                                        </li>
+                                    )
+                                })}
                             </ul>
                         </div>
                     </div>
