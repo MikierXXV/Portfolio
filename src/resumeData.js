@@ -1,7 +1,7 @@
 let resumeData = {
     "imagebaseurl":"https://MikierXXV.github.io/",
     "name": "Miguel Gutiérrez Jariod",
-    "role": "Student of Computer Engineering",
+    "role": "Student of Computer Engineering · Basketball Player · Guitarist",
     "linkedinId":"Your LinkedIn Id",
     "skypeid": "Your skypeid",
     "roleDescription": " I like dabbling in various parts of frontend development and like to learn about new technologies, read books of philosophy, play the spanish guitar or simply watch series in my free time.",
