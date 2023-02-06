@@ -33,7 +33,7 @@ header {
    height: 800px;
    min-height: 500px;
    width: 100%;
-   background: #161415 url(../images/fondo-home4.jpg) no-repeat top center;
+   background: #161415 url(../images/fondo-home9.jpg) no-repeat top center;
    background-size: cover !important;
 	-webkit-background-size: cover !important;
    text-align: center;
@@ -95,13 +95,13 @@ header .social li {
    padding: 0;
 }
 header .social li a { color: #fff; }
-header .social li a:hover { color: #11ABB0; }
+header .social li a:hover { color: #a8379f; }
 
 /* scrolldown link */
 header .scrolldown a {
-   position: absolute;
-   bottom: 30px;
-   left: 50%;
+   position: relative;
+   bottom: 155px;
+   left: 95%;
    margin-left: -29px;
    color: #fff;
    display: block;
@@ -117,7 +117,7 @@ header .scrolldown a {
    -o-transition: all .3s ease-in-out;
    transition: all .3s ease-in-out;
 }
-header .scrolldown a:hover { color: #11ABB0; }
+header .scrolldown a:hover { color: #a8379f; }
 
 /* primary navigation
 --------------------------------------------------------------------- */
@@ -179,7 +179,7 @@ ul#nav li a {
 }
 
 ul#nav li a:active { background-color: transparent !important; }
-ul#nav li.current a { color: #11ABB0; }
+ul#nav li.current a { color: #a8379f; }
 
 
 /* ------------------------------------------------------------------ */
@@ -242,7 +242,7 @@ ul#nav li.current a { color: #11ABB0; }
    overflow: hidden;
 }
 
-#resume a, #resume a:visited  { color: #11ABB0; }
+#resume a, #resume a:visited  { color: #855ef8; }
 #resume a:hover, #resume a:focus { color: #313131; }
 
 #resume h1 {
