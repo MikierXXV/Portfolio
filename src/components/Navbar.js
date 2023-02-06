@@ -22,11 +22,9 @@ export default class Navbar extends Component {
                     </nav>
                     <div className="row banner">
                         <div className="banner-text">
-                            <h1 className="responsive-headline">I'm {resumeData.name}</h1>
-                            <hr/>
-                            <h2 style={{color:"#fff", fontFamily:"sans-serif"}}>{resumeData.role}</h2>
-                            <h3 style={{color:"#fff", fontFamily:"sans-serif"}}>{resumeData.roleDescription}</h3>
-                            <hr/>
+                            <img className="profile-pic" src="images/CVfoto-rounded.png" alt="Profile Pic" style={{marginTop: 30, marginBottom: -30}}/>
+                            <h1 className="responsive-headline">{resumeData.name}</h1>
+                            <h2 className="responsive-headline" style={{color:"#fff", fontFamily:"sans-serif"}}>{resumeData.role}</h2>
                             <ul className="social">
                                 {resumeData.socialLinks && resumeData.socialLinks.map(item => {
                                     return(
