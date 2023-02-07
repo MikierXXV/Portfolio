@@ -188,13 +188,15 @@ ul#nav li.current a { color: #a8379f; }
 
 #about {
    background: #2B2B2B;
-   padding-top: 96px;
-   padding-bottom: 66px;
+   padding-top: 175px;
+   padding-bottom: 46px;
    overflow: hidden;
+    height: 800px;
+    min-height: 500px;
 }
 
 #about a, #about a:visited  { color: #fff; }
-#about a:hover, #about a:focus { color: #11ABB0; }
+#about a:hover, #about a:focus { color: #a8379f; }
 
 #about h2 {
    font: 22px/30px 'opensans-bold', sans-serif;
@@ -228,6 +230,12 @@ ul#nav li.current a { color: #a8379f; }
 #about .download .button i {
    margin-right: 15px;
    font-size: 20px;
+}
+
+#about .address{
+    text-align: left;
+    margin-left: 15%;
+    font-weight: bold;
 }
 
 
