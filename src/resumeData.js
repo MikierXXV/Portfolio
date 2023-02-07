@@ -17,7 +17,7 @@ let resumeData = {
             "className":"fa fa-github"
         }
     ],
-    "aboutme":"I am currently a student of Computer Engineering at the University of Barcelona, in my last year of the degree. I am passionate about learning new technologies and I am always looking for new challenges to face.",
+    "aboutme":"I am currently a student of Computer Engineering at the University of Barcelona, in my last year of the degree. I am passionate about learning new technologies and always looking for new challenges to face. ",
     "address":"Spain, Barcelona",
     "email":"miguel.gutjar@gmail.com",
     "phone":"(+34) 649 168 840",
