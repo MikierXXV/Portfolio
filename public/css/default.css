@@ -784,6 +784,13 @@ properly.
     clear: both;
 }
 
+.tercio {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5px;
+    align-items: center;
+}
+
 /*  2. Misc -------------------------------------------------------- */
 
 .remove-bottom { margin-bottom: 0 !important; }

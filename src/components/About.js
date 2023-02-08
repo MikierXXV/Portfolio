@@ -21,6 +21,11 @@ export default class About extends Component {
                         <h1 style={{color: "white"}}>Hobbies</h1>
                         <hr/>
                         <p>{resumeData.roleDescription}</p>
+                        <div className="tercio">
+                            <button className="download" onClick={() => { redirectEmail()}} style={{width: 200}}> Send me a Message </button>
+                            <button className="download" onClick={() => { redirectEmail()}} style={{width: 200}}> Send me a Message </button>
+                            <button className="download" onClick={() => { redirectEmail()}} style={{width: 200}}> Send me a Message </button>
+                        </div>
                     </div>
                     <div className="three columns">
                         <img src="images/CVfoto-rounded.png" alt="porfolio pic" style={{height: 300, width: 280}} />
