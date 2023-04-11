@@ -1,5 +1,10 @@
 import React, {Component} from "react";
 import resumeData from "../resumeData";
+import {FaBasketballBall} from "react-icons/fa";
+import {FaFilm} from "react-icons/fa";
+import {FaGuitar} from "react-icons/fa";
+import {GiBookshelf} from "react-icons/gi";
+import {FaLaptopCode} from "react-icons/fa";
 
 export default class About extends Component {
 
@@ -21,10 +26,12 @@ export default class About extends Component {
                         <h1 style={{color: "white"}}>Hobbies</h1>
                         <hr/>
                         <p>{resumeData.roleDescription}</p>
-                        <div className="tercio">
-                            <button className="download" onClick={() => { redirectEmail()}} style={{width: 200}}> Send me a Message </button>
-                            <button className="download" onClick={() => { redirectEmail()}} style={{width: 200}}> Send me a Message </button>
-                            <button className="download" onClick={() => { redirectEmail()}} style={{width: 200}}> Send me a Message </button>
+                        <div className="penta">
+                            <a href={""}><i className={"fa-3x"}><FaBasketballBall/></i></a>
+                            <a href={""}><i className={"fa-3x"}><FaFilm/></i></a>
+                            <a href={""}><i className={"fa-3x"}><FaGuitar/></i></a>
+                            <a href={""}><i className={"fa-3x"}><GiBookshelf/></i></a>
+                            <a href={""}><i className={"fa-3x"}><FaLaptopCode/></i></a>
                         </div>
                     </div>
                     <div className="three columns">

@@ -789,6 +789,13 @@ properly.
     grid-template-columns: 1fr 1fr 1fr;
     gap: 5px;
     align-items: center;
+    width: 2.5em;
+}
+.penta {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 5px;
+    align-items: center;
 }
 
 /*  2. Misc -------------------------------------------------------- */
