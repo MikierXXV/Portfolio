@@ -5,7 +5,6 @@ export default class Skills extends Component {
     render() {
         return(
             <section id="skills">
-                <GiBasketballBasket/>
             </section>
         );
     }
