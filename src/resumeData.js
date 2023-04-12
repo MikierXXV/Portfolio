@@ -2,8 +2,6 @@ let resumeData = {
     "imagebaseurl":"https://MikierXXV.github.io/",
     "name": "Miguel Gutiérrez Jariod",
     "role": "Student of Computer Engineering · Basketball Player · Guitarist",
-    "linkedinId":"Your LinkedIn Id",
-    "skypeid": "Your skypeid",
     "roleDescription": " I like dabbling in various parts of frontend development and like to learn about new technologies, read books of philosophy, play the spanish guitar or simply watch series in my free time.",
     "socialLinks":[
         {
@@ -20,7 +18,6 @@ let resumeData = {
     "aboutme":"I am currently a student of Computer Engineering at the University of Barcelona, in my last year of the degree. I am passionate about learning new technologies and always looking for new challenges to face. ",
     "address":"Spain, Barcelona",
     "email":"miguel.gutjar@gmail.com",
-    "phone":"(+34) 649 168 840",
     "website":"https://www.github.com/MikierXXV",
     "education":[
         {
