@@ -15,6 +15,28 @@ let resumeData = {
             "className":"fa fa-github"
         }
     ],
+    "contactlinks":[
+        {
+            "name":"linkedin",
+            "url":"https://www.linkedin.com/in/miguel-gutjar/",
+            "className":"fa fa-linkedin"
+        },
+        {
+            "name":"gmail",
+            "url":"mailto:miguel.gutjar@gmail.com",
+            "className":"si si-gmail"
+        },
+        {
+            "name":"telegram",
+            "url":"https://t.me/mikierxxv",
+            "className":"fa fa-telegram"
+        },
+        {
+            "name":"twitter",
+            "url":"https://t.me/mikierxxv",
+            "className":"fa fa-telegram"
+        },
+    ],
     "aboutme":"I am currently a student of Computer Engineering at the University of Barcelona, in my last year of the degree. I am passionate about learning new technologies and always looking for new challenges to face. ",
     "address":"Spain, Barcelona",
     "email":"miguel.gutjar@gmail.com",

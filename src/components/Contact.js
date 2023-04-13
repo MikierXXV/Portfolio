@@ -1,6 +1,6 @@
 import React, {Component} from "react";
 import resumeData from "../resumeData";
-import {FaBasketballBall, FaFilm, FaLinkedin, FaLinkedinIn, FaTelegram} from "react-icons/fa";
+import {FaLinkedin, FaTelegram} from "react-icons/fa";
 import{SiGmail} from "react-icons/si";
 
 export default class Contact extends Component {
@@ -15,10 +15,9 @@ export default class Contact extends Component {
                 <div className="row">
                     <div className="twelve columns">
                         <ul className="social-links">
-
-                            <a href={""}><i className={"fa-3x"}><FaTelegram/></i></a>
-                            <a href={""}><i className={"fa-3x"}><FaLinkedin/></i></a>
-                            <a href={""}><i className={"fa-3x"}><SiGmail/></i></a>
+                            <a href={resumeData.contactlinks[2].url}><i className={"fa-3x"}><FaTelegram/></i></a>
+                            <a href={resumeData.contactlinks[0].url}><i className={"fa-3x"}><FaLinkedin/></i></a>
+                            <a href={resumeData.contactlinks[1].url}><i className={"fa-3x"}><SiGmail/></i></a>
                         </ul>
                     </div>
                     <div id="go-top">
