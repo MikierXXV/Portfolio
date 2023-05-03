@@ -188,7 +188,7 @@ ul#nav li.current a { color: #a8379f; }
 
 #about {
    background: #2B2B2B;
-   padding-top: 160px;
+   padding-top: 90px;
    padding-bottom: 46px;
    overflow: hidden;
     height: 800px;
@@ -238,7 +238,6 @@ ul#nav li.current a { color: #a8379f; }
     font-weight: bold;
 }
 
-
 /* ------------------------------------------------------------------ */
 /* d. Resume Section
 /* ------------------------------------------------------------------ */
@@ -259,7 +258,7 @@ ul#nav li.current a { color: #a8379f; }
    letter-spacing: 1px;
 }
 #resume h1 span {
-   border-bottom: 3px solid #11ABB0;
+   border-bottom: 3px solid #a8379f;
    padding-bottom: 6px;
 }
 #resume h3 {

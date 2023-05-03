@@ -60,9 +60,14 @@ let resumeData = {
     ],
     work : [
         {
+            "CompanyName":"UPCNet",
+            "description":"Traineeship contract, moodle and php development",
+            "datefrom":"2023 - In progress",
+        },
+        {
             "CompanyName":"Polytechnic University of Catalonia ETSEIB",
             "description":"Computer installation and maintenance",
-            "datefrom":"2022 - In progress",
+            "datefrom":"2022 - 2023",
         },
         {
             "CompanyName":"COYMA",
@@ -72,22 +77,22 @@ let resumeData = {
     ],
     skills: [
         {
-            "skillname":"Constant"
+            "skillname":"Constancy"
         },
         {
-            "skillname":"Constant"
+            "skillname":"Creativity"
         },
         {
-            "skillname":"Constant"
+            "skillname":"Management"
         },
         {
-            "skillname":"Constant"
+            "skillname":"Code"
         },
         {
-            "skillname":"Constant"
+            "skillname":"Motivation"
         },
         {
-            "skillname":"Constant"
+            "skillname":"Leadership"
         },
     ],
     tecnologies: [

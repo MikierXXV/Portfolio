@@ -44,6 +44,7 @@ export default class About extends Component {
                         </p>
                     </div>
                 </div>
+                <br/>
             </section>
         );
     }
