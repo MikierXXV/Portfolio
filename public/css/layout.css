@@ -179,7 +179,9 @@ ul#nav li a {
 }
 
 ul#nav li a:active { background-color: transparent !important; }
-ul#nav li.current a { color: #a8379f; }
+ul#nav li.current a:visited  { color: #fff; }
+ul#nav li.current a:hover { color: #a8379f; }
+
 
 
 /* ------------------------------------------------------------------ */

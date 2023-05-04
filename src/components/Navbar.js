@@ -12,12 +12,12 @@ export default class Navbar extends Component {
                         <a className="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
                         <ul id="nav" className="nav">
                             <li className="current"><a className="smoothscroll" href="#home">Home</a></li>
-                            <li><a className="smoothscroll" href="#about">About</a></li>
-                            <li><a className="smoothscroll" href="#resume">Resume</a></li>
-                            <li><a className="smoothscroll" href="#skills">Skills</a></li>
-                            <li><a className="smoothscroll" href="#projects">Projects</a></li>
-                            <li><a className="smoothscroll" href="#tecnologies">Tecnologies</a></li>
-                            <li><a className="smoothscroll" href="#contact">Contact</a></li>
+                            <li className="current"><a className="smoothscroll" href="#about">About</a></li>
+                            <li className="current"><a className="smoothscroll" href="#resume">Resume</a></li>
+                            <li className="current"><a className="smoothscroll" href="#skills">Skills</a></li>
+                            <li className="current"><a className="smoothscroll" href="#projects">Projects</a></li>
+                            <li className="current"><a className="smoothscroll" href="#tecnologies">Tecnologies</a></li>
+                            <li className="current"><a className="smoothscroll" href="#contact">Contact</a></li>
                         </ul>
                     </nav>
                     <div className="row banner">

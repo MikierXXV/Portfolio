@@ -8,11 +8,12 @@ export default class Resume extends Component {
                     <div className="three columns header-col">
                         <h1><span>Education</span></h1>
                         <br/>
+                        <br/>
                         <img src={"images/fib-upc_logo.png"} height={100} width={100}/>
                         <br/>
                         <img src={"images/garbi_logo.png"} height={120} width={120}/>
                     </div>
-                    <div className="nine columns main-col" style={{paddingTop:80}}>{
+                    <div className="nine columns main-col" style={{paddingTop:70}}>{
                         resumeData.education && resumeData.education.map((item)=>{
                             return(
                                 <div className="row item">
@@ -22,7 +23,6 @@ export default class Resume extends Component {
                                             <span>&bull;</span>
                                             <em className="date">{item.datefrom}</em>
                                         </p>
-                                        <p>{item.Achievements}</p>
                                     </div>
                                 </div>
                             )
@@ -38,9 +38,11 @@ export default class Resume extends Component {
                         <img src={"images/etseib_logo.png"} height={70} width={70}/>
                         <br/>
                         <br/>
+                        <br/>
+                        <br/>
                         <img src={"images/coyma-logo.png"} height={120} width={120}/>
                     </div>
-                    <div className="nine columns main-col" style={{paddingTop:140}}>{
+                    <div className="nine columns main-col" style={{paddingTop:70}}>{
                         resumeData.work && resumeData.work.map((item) => {
                             return(
                                 <div className="row item">
@@ -50,7 +52,7 @@ export default class Resume extends Component {
                                             <span>&bull;</span>
                                             <em className="date">{item.datefrom}</em>
                                         </p>
-                                        <p>{item.Achievements}</p>
+                                        <p>{item.function}</p>
                                     </div>
                                 </div>)
                         })
