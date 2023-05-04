@@ -61,18 +61,21 @@ let resumeData = {
     work : [
         {
             "CompanyName":"UPCNet",
-            "description":"Traineeship contract, moodle and php development",
+            "description":"Traineeship contract",
             "datefrom":"2023 - In progress",
+            "function":"Moodle and php development",
         },
         {
             "CompanyName":"Polytechnic University of Catalonia ETSEIB",
-            "description":"Computer installation and maintenance",
+            "description":"Internship contract",
             "datefrom":"2022 - 2023",
+            "function":"Computer installation and maintenance, user support and management and reception of orders",
         },
         {
             "CompanyName":"COYMA",
-            "description":"Practice in a company",
-            "datefrom":"2017 - 2018",
+            "description":"First contact in a company",
+            "datefrom":"2017 - 2017",
+            "function":"Learning the basics of the company and the structure related between different departments",
         },
     ],
     skills: [
