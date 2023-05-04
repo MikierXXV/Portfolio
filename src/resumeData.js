@@ -2,7 +2,7 @@ let resumeData = {
     "imagebaseurl":"https://MikierXXV.github.io/",
     "name": "Miguel Gutiérrez Jariod",
     "role": "Student of Computer Engineering · Basketball Player · Guitarist",
-    "roleDescription": " I like dabbling in various parts of frontend development and like to learn about new technologies, read books of philosophy, play the spanish guitar or simply watch series in my free time.",
+    "roleDescription": " I like dabbling in various parts of frontend development and like to learn about new technologies, read books of philosophy, play the spanish guitar or simply watch series and movies in my free time.",
     "socialLinks":[
         {
             "name":"linkedin",
@@ -37,7 +37,7 @@ let resumeData = {
             "className":"fa fa-telegram"
         },
     ],
-    "aboutme":"I am currently a student of Computer Engineering at the University of Barcelona, in my last year of the degree. I am passionate about learning new technologies and always looking for new challenges to face. ",
+    "aboutme":"I am currently a student of Computer Engineering at the University of Barcelona, in my last year of the degree. I am passionate about learning new technologies and always looking for new challenges to face. My goal is to become a full-stack developer and be able to create my own projects. ",
     "address":"Spain, Barcelona",
     "email":"miguel.gutjar@gmail.com",
     "website":"https://www.github.com/MikierXXV",
@@ -74,7 +74,7 @@ let resumeData = {
         {
             "CompanyName":"COYMA",
             "description":"First contact in a company",
-            "datefrom":"2017 - 2017",
+            "datefrom":"Intensive week in 2021",
             "function":"Learning the basics of the company and the structure related between different departments",
         },
     ],
