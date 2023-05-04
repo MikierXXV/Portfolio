@@ -80,7 +80,8 @@ let resumeData = {
     ],
     skills: [
         {
-            "skillname":"Constancy"
+            "skillname":"Constancy",
+            "level":"70%",
         },
         {
             "skillname":"Creativity"

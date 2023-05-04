@@ -25,6 +25,9 @@ export default class Contact extends Component {
                             <i className="icon-up-open" />
                         </a>
                     </div>
+                    <div className="copyright">
+                        <li><p> © Miguel Gutiérrez Jariod 2023.</p></li>
+                    </div>
                 </div>
             </footer>
         );
