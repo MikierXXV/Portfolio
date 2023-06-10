@@ -22,7 +22,7 @@ export default class Skills extends Component {
                                 <div className="container" style={{ width: 150, display: 'flex', gap: '10px'}}>
                                     {resumeData.skills && resumeData.skills.map((item) => {
                                         return(
-                                            <div>
+                                            <div style={{paddingRight:20}}>
                                                 <CircularProgressBar value={item.level}></CircularProgressBar>
                                                 <em style={{color:"white", justifyContent:"center"}}>{item.skillname}</em>
                                             </div>
