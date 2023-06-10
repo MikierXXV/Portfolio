@@ -16,7 +16,6 @@ export default class Navbar extends Component {
                             <li className="current"><a className="smoothscroll" href="#resume">Resume</a></li>
                             <li className="current"><a className="smoothscroll" href="#skills">Skills</a></li>
                             <li className="current"><a className="smoothscroll" href="#projects">Projects</a></li>
-                            <li className="current"><a className="smoothscroll" href="#tecnologies">Tecnologies</a></li>
                             <li className="current"><a className="smoothscroll" href="#contact">Contact</a></li>
                         </ul>
                     </nav>

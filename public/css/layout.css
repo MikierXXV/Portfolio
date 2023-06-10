@@ -332,24 +332,29 @@ ul#nav li.current a:hover { color: #a8379f; }
 
 .bars {
 	width: 95%;
-	float: left;
 	padding: 0;
-	text-align: left;
 }
 .bars .skills {
   	margin-top: 36px;
    list-style: none;
+    width: 50%;
+    height: 30%;
 }
 .bars li {
-   position: relative;
-  	margin-bottom: 60px;
-  	background: #ccc;
+   display: grid;
+    grid-template-columns:repeat(6, 1fr);
+    grid-gap: 10px;
   	height: 42px;
   	border-radius: 3px;
 }
+.bars container{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 10px;
+}
 .bars li em {
 	font: 15px 'opensans-bold', sans-serif;
-   color: #313131;
+   color: #FFFFFF;
 	text-transform: uppercase;
    letter-spacing: 2px;
 	font-weight: normal;

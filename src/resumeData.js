@@ -81,22 +81,27 @@ let resumeData = {
     skills: [
         {
             "skillname":"Constancy",
-            "level":"70%",
+            "level":"70",
         },
         {
-            "skillname":"Creativity"
+            "skillname":"Creativity",
+            "level":"60",
         },
         {
-            "skillname":"Management"
+            "skillname":"Management",
+            "level":"50",
         },
         {
-            "skillname":"Code"
+            "skillname":"Code",
+            "level":"20",
         },
         {
-            "skillname":"Motivation"
+            "skillname":"Motivation",
+            "level":"80",
         },
         {
-            "skillname":"Leadership"
+            "skillname":"Leadership",
+            "level":"30",
         },
     ],
     tecnologies: [
