@@ -1,9 +1,7 @@
 import React, {Component} from "react";
-import { CircularProgressbar, CircularProgressbarWithChildren, buildStyles  } from 'react-circular-progressbar';
 import 'react-circular-progressbar/dist/styles.css';
-import ChangingProgressProvider from "../ChangingProgressProvider";
 import resumeData from "../resumeData";
-import CircularProgressBar from "../CircularProgressBar";
+import CircularProgressBar from "./CircularProgressBar";
 
 export default class Skills extends Component {
     render() {
@@ -18,7 +16,7 @@ export default class Skills extends Component {
                     <div className="nine columns main-col">
                         <div className="bars">
                             <ul className="skills">
-                                <div className="container" style={{ width: 150, display: 'flex', gap: '10px'}}>
+                                <div className="container">
                                     {resumeData.skills && resumeData.skills.map((item) => {
                                         return(
                                             <div style={{paddingRight:20}}>
@@ -41,7 +39,7 @@ export default class Skills extends Component {
                     <div className="nine columns main-col">
                         <div className="bars">
                             <ul className="skills">
-                                <div className="container" style={{ width: 150, display: 'flex', gap: '10px'}}>
+                                <div className="container">
                                     {resumeData.tecnologies && resumeData.tecnologies.map((item) => {
                                         return(
                                             <div style={{paddingRight:20}}>

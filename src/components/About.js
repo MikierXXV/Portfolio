@@ -11,9 +11,7 @@ export default class About extends Component {
     render() {
         function redirectEmail() {
             window.location.href = "mailto:miguel.gutjar@gmail.com";
-            //window.open("https://www.gmail.com", "_blank");
         }
-        //let resumeData = this.props.resumeData;
         return(
             <section id="about">
                 <div className="row">
@@ -22,7 +20,7 @@ export default class About extends Component {
                         <hr/>
                         <p>{resumeData.aboutme}</p>
                         <button className="download" onClick={() => { redirectEmail()}} style={{width: 225}}> Send me a Message </button>
-                        <div style={{height: 40 }}></div>
+                        <div className="space"></div>
                         <h1 style={{color: "white"}}>Hobbies</h1>
                         <hr/>
                         <p>{resumeData.roleDescription}</p>

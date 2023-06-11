@@ -193,7 +193,7 @@ ul#nav li.current a:hover { color: #a8379f; }
    padding-top: 90px;
    padding-bottom: 46px;
    overflow: hidden;
-    height: 800px;
+    height: 100%;
     min-height: 500px;
 }
 
@@ -238,6 +238,10 @@ ul#nav li.current a:hover { color: #a8379f; }
     text-align: left;
     margin-left: 15%;
     font-weight: bold;
+}
+
+#about .space{
+    margin-top: 10%;
 }
 
 /* ------------------------------------------------------------------ */
@@ -347,10 +351,9 @@ ul#nav li.current a:hover { color: #a8379f; }
   	height: 42px;
   	border-radius: 3px;
 }
-.bars container{
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    grid-gap: 10px;
+.container{
+    display: flex;
+    gap: 10px;
 }
 .bars li em {
 	font: 15px 'opensans-bold', sans-serif;
