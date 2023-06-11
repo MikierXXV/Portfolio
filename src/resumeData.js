@@ -138,28 +138,28 @@ let resumeData = {
     ],
     projects: [
         {
-            "name":"Project 1",
-            "description":"mobileapp",
-            "imgurl":"images/portfolio/phone.jpg",
+            "name":"Layup Web Page Project",
+            "description":"Simple Web page for the development of a project for a fashion brand",
+            "imgurl":"images/layup.png",
+            "source":"https://mikierxxv.github.io/LAYUP/index.html",
+        },
+        {
+            "name":"Green Wheel Project",
+            "description":"Mobile app that shows and reserve cars chargers and bikes",
+            "imgurl":"images/Greenwheel.png",
             "source":"https://github.com/MikierXXV/Portfolio",
         },
         {
-            "name":"Project 2",
-            "description":"porfolio",
-            "imgurl":"images/portfolio/project.jpg",
-            "source":"https://github.com/MikierXXV/Portfolio",
+            "name":"Data Mining Projects",
+            "description":"Gender salary gap analysis and NBA player position predictions",
+            "imgurl":"images/Gendergapsalary.png",
+            "source":"https://github.com/MikierXXV/MD",
         },
         {
-            "name":"Project 3",
-            "description":"Layup web page",
-            "imgurl":"images/portfolio/project2.jpg",
-            "source":"https://github.com/MikierXXV/Portfolio",
-        },
-        {
-            "name":"Project 4",
-            "description":"Recomender system",
-            "imgurl":"images/portfolio/project3.jpg",
-            "source":"https://github.com/MikierXXV/Portfolio",
+            "name":"Project of PROP subject",
+            "description":"Recommender system for movies and series",
+            "imgurl":"images/retrocam.jpg",
+            "source":"https://github.com/MikierXXV/PROP",
         }
     ],
 }
