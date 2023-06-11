@@ -81,7 +81,7 @@ let resumeData = {
     skills: [
         {
             "skillname":"Constancy",
-            "level":"70",
+            "level":"90",
         },
         {
             "skillname":"Creativity",
@@ -93,7 +93,7 @@ let resumeData = {
         },
         {
             "skillname":"Code",
-            "level":"20",
+            "level":"50",
         },
         {
             "skillname":"Motivation",
@@ -106,50 +106,60 @@ let resumeData = {
     ],
     tecnologies: [
         {
-            "tecnologyname":"HTML5"
+            "tecnologyname":"HTML5",
+            "level":"80",
+            "source":"https://i.imgur.com/b9NyUGm.png",
         },
         {
-            "tecnologyname":"CSS"
+            "tecnologyname":"CSS",
+            "level":"50",
+            "source":"https://i.imgur.com/b9NyUGm.png",
         },
         {
-            "tecnologyname":"JavaScript"
+            "tecnologyname":"JavaScript",
+            "level":"35",
+            "source":"https://i.imgur.com/b9NyUGm.png",
         },
         {
-            "tecnologyname":"Python"
+            "tecnologyname":"Python",
+            "level":"55",
+            "source":"https://i.imgur.com/b9NyUGm.png",
         },
         {
-            "tecnologyname":"Flutter"
+            "tecnologyname":"Flutter",
+            "level":"70",
+            "source":"https://i.imgur.com/b9NyUGm.png",
         },
         {
-            "tecnologyname":"C++"
-        },
-        {
-            "tecnologyname":"C"
-        },
-        {
-            "tecnologyname":"Java"
+            "tecnologyname":"PHP",
+            "level":"65",
+            "source":"https://i.imgur.com/b9NyUGm.png",
         },
     ],
     projects: [
         {
             "name":"Project 1",
             "description":"mobileapp",
-            "imgurl":"images/portfolio/phone.jpg"
+            "imgurl":"images/portfolio/phone.jpg",
+            "source":"https://github.com/MikierXXV/Portfolio",
         },
         {
             "name":"Project 2",
             "description":"porfolio",
-            "imgurl":"images/portfolio/phone.jpg"
+            "imgurl":"images/portfolio/project.jpg",
+            "source":"https://github.com/MikierXXV/Portfolio",
         },
         {
             "name":"Project 3",
             "description":"Layup web page",
-            "imgurl":"images/portfolio/phone.jpg"
+            "imgurl":"images/portfolio/project2.jpg",
+            "source":"https://github.com/MikierXXV/Portfolio",
         },
         {
             "name":"Project 4",
             "description":"Recomender system",
-            "imgurl":"images/portfolio/phone.jpg"
+            "imgurl":"images/portfolio/project3.jpg",
+            "source":"https://github.com/MikierXXV/Portfolio",
         }
     ],
 }

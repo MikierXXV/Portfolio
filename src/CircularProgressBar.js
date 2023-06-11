@@ -1,14 +1,13 @@
 import React, { useEffect, useState } from 'react';
-import {buildStyles, CircularProgressbar} from 'react-circular-progressbar';
+import {buildStyles, CircularProgressbar, CircularProgressbarWithChildren} from 'react-circular-progressbar';
 import 'react-circular-progressbar/dist/styles.css';
 
-function CircularProgressBar(value) {
+function CircularProgressBar(value, display) {
     const [percentage, setPercentage] = useState(0);
-    let val = value.value;
 
     useEffect(() => {
         setTimeout(() => {
-            if (percentage < val) {
+            if (percentage < value.value) {
                 setPercentage(percentage + 1);
             }
         }, 50);
@@ -28,3 +27,22 @@ function CircularProgressBar(value) {
     );
 }
 export default CircularProgressBar;
+
+/*
+<div style={{textAlign:"center"}}>
+            <div style={{ width: 150}}>
+                <CircularProgressbarWithChildren value={percentage} styles={buildStyles({
+                    pathTransitionDuration: 1,
+                    pathColor: '#a8379f',
+                    textColor: '#a8379f',
+                    trailColor: '#d6d6d6',
+                })} >
+                <img
+                    style={{ width: 80, marginTop: -5 }}
+                    src="https://i.imgur.com/b9NyUGm.png"
+                    alt="doge"
+                />
+                </CircularProgressbarWithChildren>
+            </div>
+        </div>
+*/

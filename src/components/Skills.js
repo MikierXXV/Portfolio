@@ -7,12 +7,11 @@ import CircularProgressBar from "../CircularProgressBar";
 
 export default class Skills extends Component {
     render() {
-        const percentage = 66;
         return(
             <section id="skills">
                 <div className="row skill">
                     <div className="two columns header-col">
-                        <h1 style={{color:"white", paddingTop:50}}><span>Skills</span></h1>
+                        <h1 style={{color:"white", paddingTop:75}}><span>Skills</span></h1>
                     </div>
                 </div>
                 <div className="row skill">
@@ -23,7 +22,7 @@ export default class Skills extends Component {
                                     {resumeData.skills && resumeData.skills.map((item) => {
                                         return(
                                             <div style={{paddingRight:20}}>
-                                                <CircularProgressBar value={item.level}></CircularProgressBar>
+                                                <CircularProgressBar value={item.level} display={true}></CircularProgressBar>
                                                 <em style={{color:"white", justifyContent:"center"}}>{item.skillname}</em>
                                             </div>
                                         )
@@ -33,6 +32,30 @@ export default class Skills extends Component {
                         </div>
                     </div>
                 </div>
+                <div className="row skill">
+                    <div className="two columns header-col">
+                        <h1 style={{color:"white", paddingTop:50}}><span>Languages</span></h1>
+                    </div>
+                </div>
+                <div className="row skill">
+                    <div className="nine columns main-col">
+                        <div className="bars">
+                            <ul className="skills">
+                                <div className="container" style={{ width: 150, display: 'flex', gap: '10px'}}>
+                                    {resumeData.tecnologies && resumeData.tecnologies.map((item) => {
+                                        return(
+                                            <div style={{paddingRight:20}}>
+                                                <CircularProgressBar value={item.level} display={false} src={item.source}></CircularProgressBar>
+                                                <em style={{color:"white", justifyContent:"center"}}>{item.tecnologyname}</em>
+                                            </div>
+                                        )
+                                    })}
+                                </div>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div style={{height:80}}></div>
             </section>
         );
     }
