@@ -20,7 +20,11 @@ export default class Skills extends Component {
                                     {resumeData.skills && resumeData.skills.map((item) => {
                                         return(
                                             <div style={{paddingRight:20}}>
-                                                <CircularProgressBar value={item.level} display={true}></CircularProgressBar>
+                                                <CircularProgressBar
+                                                    value={item.level}
+                                                    display={true}
+                                                    color={item.color}
+                                                ></CircularProgressBar>
                                                 <em style={{color:"white", justifyContent:"center"}}>{item.skillname}</em>
                                             </div>
                                         )
@@ -43,7 +47,12 @@ export default class Skills extends Component {
                                     {resumeData.tecnologies && resumeData.tecnologies.map((item) => {
                                         return(
                                             <div style={{paddingRight:20}}>
-                                                <CircularProgressBar value={item.level} display={false} src={item.source}></CircularProgressBar>
+                                                <CircularProgressBar
+                                                    value={item.level}
+                                                    display={false}
+                                                    src={item.source}
+                                                    color={item.color}
+                                                ></CircularProgressBar>
                                                 <em style={{color:"white", justifyContent:"center"}}>{item.tecnologyname}</em>
                                             </div>
                                         )
