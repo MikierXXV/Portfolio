@@ -13,4 +13,5 @@ It is developed using React.
     <img src="https://ionicframework.com/docs/icons/logo-react-icon.png">
 </div>
 
+[Check my profile](https://mikierxxv.github.io/Portfolio/#home)
 
